@@ -1,0 +1,9 @@
+<schemalist>
+    <schema id="com.github.ryankugel.swift-menu" path="/com/github/ryankugel/swift-menu/">
+        <key name="menu-icon" type="s">
+            <default>'start-here-symbolic'</default>
+            <summary>Menu button icon</summary>
+            <description>The icon to display on the panel for SwiftMenu</description>
+        </key>
+    </schema>
+</schemalist>

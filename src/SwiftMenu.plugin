@@ -1,0 +1,8 @@
+[Plugin]
+Module=libswiftmenu.so
+Name=Swift Menu
+Description=Basic root panel menu mimicking macOS
+Authors=Ryan Kugel
+Copyright=© 2024 Ryan Kugel
+Website=http://github.com/ryankugel/swift-menu
+Icon=start-here-symbolic
