@@ -15,4 +15,5 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
 Description: Simple root menu for Budgie Panel
- This is a simple root menu applet for Budgie Panel which mimicks the appearance of macOS menu.
+ This is a simple root menu applet for Budgie Panel which mimicks the
+ appearance of macOS menu.
