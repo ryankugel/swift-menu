@@ -20,6 +20,9 @@
 
 
 # dh_make generated override targets.
+override_dh_auto_configure:
+	dh_auto_configure --buildsystem=meson -- --prefix=/usr --libdir=/usr/lib
+
 # This is an example for Cmake (see <https://bugs.debian.org/641051>).
 #override_dh_auto_configure:
 #	dh_auto_configure -- \

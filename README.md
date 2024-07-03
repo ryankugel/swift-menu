@@ -1,4 +1,4 @@
-# swift-menu
+# Swift Menu
 
 ## A simplified root menu for Budgie mimicking macOS.
 
@@ -19,10 +19,8 @@ Run `meson` to configure the build environment and then use `ninja` to build and
     sudo ninja install
 
 ## Packaging
-swift-menu supports Debian packaging for distros such as Ubuntu. The following steps will allow you to generate a new `.deb` package for swift-menu.
-
-### Configure the build
-`dh_auto_configure --buildsystem=meson`
+Swift Menu supports Debian packaging for distros such as Ubuntu. The following steps will allow you to generate a new `.deb` package for swift-menu.
 
 ### Generate the Debian package
 `dpkg-buildpackage -rfakeroot -us -uc -b`
+- The `debian/rules` file includes a custom command for configuring the build environment. This is required in order to set a custom `--libdir` during the `meson setup` step.
