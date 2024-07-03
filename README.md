@@ -26,6 +26,8 @@ Swift Menu supports Debian packaging for distros such as Ubuntu. The following s
 
 The dependencies of `swift-menu` listed above all need to be installed, along with `meson` and `debhelper` in order to generate new packages.
 
+It's a good idea to try building `swift-menu` outside of `dpkg-buildpackage` using the steps above to confirm you have all the necessary dependencies.
+
 ### Generate the Debian package
 `dpkg-buildpackage -rfakeroot -us -uc -b`
 - The `debian/rules` file includes a custom command for configuring the build environment. This is required in order to set a custom `--libdir` during the `meson setup` step.
